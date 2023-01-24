@@ -1,5 +1,5 @@
  // Main é a classe padrão
-public class Main {
+ public class Main {
 
 	public static void main(String[] args) {
 		
