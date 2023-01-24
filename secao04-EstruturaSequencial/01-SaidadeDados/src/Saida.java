@@ -1,7 +1,7 @@
 import java.util.Locale;
 
 // Aula de saída de dados
-public class Main {
+public class Saida {
 
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US); // Para que a localização do programa seja os Estados Unidos. Serve para transformar a vírgula separadora de decimais em ponto flutuante
@@ -20,3 +20,4 @@ public class Main {
 	}
 	
 }
+
