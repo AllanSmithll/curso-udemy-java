@@ -40,6 +40,13 @@ public class AulaScanner {
 		y = sc.nextInt();
 		z = sc.nextDouble();
 		System.out.print("Você digitou: " + x + ", " + y + ", " + z + ".");
+
+		/*  Versão escrevendo tudo na mesma linha  */
+		// System.out.print("Digite uma string, um inteiro e um double por linha: ");
+		// x = sc.next();
+		// y = sc.nextInt();
+		// z = sc.nextDouble();
+		// System.out.print("Você digitou: " + x + ", " + y + ", " + z + ".");
 		
 		sc.close();
 	}
