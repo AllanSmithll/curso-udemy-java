@@ -6,7 +6,7 @@ public class AulaScanner2 {
 
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Digite alguma frase:");
+		System.out.println("Digite algumas coisas por linha:");
 		
 		sc.nextLine(); // O nextLine consome um espaço vazio, por isso estou deixando aqui, no caso de haver um string vazio
 		String s1 = sc.nextLine(); // nextLine aceita dados até a quebra de linha
