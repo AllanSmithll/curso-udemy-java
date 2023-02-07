@@ -1,4 +1,4 @@
-// package aplication;
+// 07/02/2023, Problema sem POO
 
 import java.util.Locale;
 import java.util.Scanner;
