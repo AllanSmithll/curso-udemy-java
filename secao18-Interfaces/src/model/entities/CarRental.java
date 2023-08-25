@@ -2,7 +2,7 @@
  * Trabalhando com Interefaces.
  * Projeto com uso de Interface
  */
-package model;
+package model.entities;
 
 import java.time.LocalDateTime;
 
@@ -14,11 +14,10 @@ public class CarRental {
     
     public CarRental() { }
 
-    public CarRental(LocalDateTime start, LocalDateTime finish, Vehicle vehicle, Invoice invoice) {
+    public CarRental(LocalDateTime start, LocalDateTime finish, Vehicle vehicle) {
         this.start = start;
         this.finish = finish;
         this.vehicle = vehicle;
-        this.invoice = invoice;
     }
 
     public LocalDateTime getStart() {return this.start;}
